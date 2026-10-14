@@ -7,6 +7,6 @@ afterEach(() => {
 });
 test("renders the app component", () => {
   render(<App />);
-  const headingElement = screen.getByText(/Code step by step/i);
+  const headingElement = screen.getByText(/RAj Mandal/i);
   expect(headingElement).toBeInTheDocument();
 });
